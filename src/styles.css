@@ -1,0 +1,419 @@
+/* create new news form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 1000px;
+  margin-top: 80px;
+}
+.create label {
+  text-align: left;
+  display: block;
+  margin-top: 30px;
+}
+/* .create h2 {
+  font-size: 40px;
+  color: #f1356d;
+  margin-bottom: 30px;
+} */
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  /* background: #f1356d;
+  color: #fff; */
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffc107;
+  border: 2px solid #ffc107;
+  background-color: #252323;
+}
+
+.create button:hover {
+  background-color: #ffc107;
+  color: #252323;
+}
+
+/*  ...fetchdata...*/
+
+#fetch_data .view_button {
+  /* background: #f1356d;
+  color: #fff; */
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffc107;
+  /* border: 2px solid #ffc107; */
+  background-color: #252323;
+  text-decoration: none;
+}
+
+#fetch_data .view_button:hover {
+  background-color: #ffc107;
+  color: #252323;
+}
+
+#fetch_data .fasave:hover {
+  color: #2c9417 !important;
+}
+
+/*  ...wishlist...*/
+
+#wishlist .view_button {
+  /* background: #f1356d;
+  color: #fff; */
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffc107;
+  /* border: 2px solid #ffc107; */
+  background-color: #252323;
+  text-decoration: none;
+}
+
+#wishlist .view_button:hover {
+  background-color: #ffc107;
+  color: #252323;
+}
+
+#wishlist .ImBin:hover {
+  color: #ff0000 !important;
+}
+
+/*...navbar->dropdown......*/
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content NavLink {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content NavLink:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*............footer..........*/
+
+.footer {
+  height: 50px;
+  padding: 70px 0px 60px;
+}
+
+.footer h6 {
+  line-height: 50px;
+}
+
+.footer h1 {
+  font-weight: bold;
+}
+
+.jumbotron {
+  height: 130px;
+  padding-top: 5px !important;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 50px;
+  align-self: center;
+}
+
+.icon-yt {
+  font-size: 60px;
+  align-self: center;
+}
+
+.icon:hover,
+.icon-yt:hover {
+  color: #ff0000 !important;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+/*.....................portfolio..............*/
+
+.port {
+  height: 800px;
+  width: 100%;
+  padding: 100px 0px 50px;
+}
+.portfolio {
+  height: 1000px;
+  width: 100%;
+  padding: 100px 0px 50px;
+}
+.portfolio h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.port h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.card {
+  margin-top: 40px;
+}
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  height: 220px;
+}
+/*Main Landing Section*/
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 50px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  /* color: #3498db; */
+  color: #ffc107;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  /* color: #3498db; */
+  color: #ffc107;
+  border: 2px solid #ffc107;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover {
+  /* background: #3498db; */
+  background-color: #ffc107;
+  color: #000000;
+}
+
+#header-img {
+  text-align: right;
+}
+
+/* #header .animated {
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+} */
+
+@media (max-width: 991px) {
+  #header {
+    height: 90vh;
+    text-align: center;
+  }
+
+  #header .header-img {
+    text-align: center;
+  }
+
+  #header .header-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 991px) {
+  #header {
+    margin-top: 20px;
+  }
+
+  #header h1 {
+    font-size: 28px;
+  }
+
+  #header h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  #header .header-img img {
+    width: 70%;
+  }
+}
+
+/*............footer..........*/
+
+.footer {
+  height: 50px;
+  padding: 70px 0px 60px;
+}
+
+.footer h6 {
+  line-height: 50px;
+}
+
+.footer h1 {
+  font-weight: bold;
+}
+
+.jumbotron {
+  height: 130px;
+  padding-top: 5px !important;
+}
+
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-linkedin:hover {
+  color: #ff0000 !important;
+}
+
+/*......responsive........*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .portfolio {
+    height: 950px;
+  }
+  .port {
+    height: 700px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .portfolio {
+    height: 2300px;
+  }
+  .port {
+    height: 2300px;
+  }
+  .makeform {
+    height: 800px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 575.98px) {
+  .port {
+    height: 2000px;
+  }
+  .portfolio {
+    height: 2300px;
+    padding: 60px 0px 50px;
+  }
+  .makeform {
+    height: 800px;
+    padding: 80px 0px 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio {
+    height: 2400px;
+  }
+  .port {
+    height: 1800px;
+  }
+  .makeform {
+    height: 1000px;
+    padding: 135px 0px 60px;
+  }
+  .footer {
+    height: 300px;
+  }
+}
